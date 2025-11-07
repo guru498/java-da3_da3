@@ -1,0 +1,8 @@
+com\example\bean\StudentBean.class
+com\example\util\JPAUtil.class
+com\example\validator\PhoneValidator.class
+com\example\validator\EmailValidator.class
+com\example\dao\StudentDAO.class
+com\example\listener\JPAInitListener.class
+com\example\model\Student.class
+com\example\validator\AgeValidator.class

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://xmlns.jcp.org/jsf/html">
+<h:head>
+    <title>Confirmation</title>
+</h:head>
+<h:body>
+    <h1>Registration Confirmation</h1>
+    <h:panelGrid columns="2">
+        <h:outputText value="Name:" />
+        <h:outputText value="#{studentBean.student.fullName}" />
+
+        <h:outputText value="Email:" />
+        <h:outputText value="#{studentBean.student.email}" />
+
+        <h:outputText value="Phone:" />
+        <h:outputText value="#{studentBean.student.phone}" />
+
+        <h:outputText value="Age:" />
+        <h:outputText value="#{studentBean.student.age}" />
+
+        <h:outputText value="Course:" />
+        <h:outputText value="#{studentBean.student.course}" />
+    </h:panelGrid>
+
+    <h:form>
+        <h:commandButton value="Back to Dashboard" action="#{studentBean.toDashboard}" />
+    </h:form>
+</h:body>
+
+</html>
